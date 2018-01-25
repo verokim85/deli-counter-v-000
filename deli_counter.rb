@@ -12,7 +12,8 @@ end
 def take_a_number(array, person)
   array == 0
     array << person
-
+    array.each_with_index.map do |person, index|
+        "#{index+1}. #{person}"
     # array<<person
     #  puts array
 end
