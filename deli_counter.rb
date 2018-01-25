@@ -11,7 +11,7 @@ end
 
 def take_a_number(array, person)
   array == 0
-    array = person + 1
+    array << person
 
     # array<<person
     #  puts array
