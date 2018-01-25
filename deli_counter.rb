@@ -10,7 +10,7 @@ end
 end
 
 def take_a_number(array, person)
-  if array == 0
+  array == 0
     array = person + 1
 
     # array<<person
